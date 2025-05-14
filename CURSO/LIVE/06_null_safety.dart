@@ -36,7 +36,7 @@ void main() {
   String? valor1 = null;
   print("Mi nombre es: $valor1");
   valor1 = "Richar";
-  print(valor1!);
+  print(valor1);
   // Flutter - Widget - Text(String)
   print("Mi nombre es: $valor1");
 
