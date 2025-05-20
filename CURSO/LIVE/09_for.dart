@@ -36,15 +36,19 @@ void main() {
   dias.forEach(print);
 
   // Callback () {}
-  dias.forEach((pepito){
+  dias.forEach(
+    (pepito){
     print("Mi dia for each es: $pepito");
-  });
+  }
+  );
 
   // Map
-  final x = lista.map((pepito){
+  final x = lista.map(
+    (pepito){
     print("Mi dia map es: $pepito");
     return pepito + 1;
-  });
+  }
+  );
   print(x);
 
   // return -> retornar algo - puede ser un valor -> funciones
