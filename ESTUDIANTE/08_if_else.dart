@@ -1,5 +1,4 @@
 
-import "dart:io";
 
 void main() {
   final miSalario = 150;

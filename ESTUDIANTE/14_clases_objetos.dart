@@ -1,11 +1,11 @@
 void main() {
   // instancias de esa clase
-  final usuario1 = Usuario("Richar", "Cangui", 29, "1234");
+  final usuario1 = Usuario("Milton", "Nasimba", 58, "1234");
   final usuario2 = Usuario.parametroNombre(
-    nombre: "Richar 2",
-    apellido: "Cangui",
-    edad: 29,
-    clave: "Hola",
+    nombre: "Fernando ",
+    apellido: "Tipan",
+    edad: 58,
+    clave: "3579",
   );
   print(usuario1.apellido);
   print(usuario2.nombre);
